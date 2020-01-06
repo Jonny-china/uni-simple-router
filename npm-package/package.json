@@ -1,11 +1,12 @@
 {
-  "name": "uni-simple-router",
-  "version": "1.4.9",
+  "name": "@jonny1994/uni-simple-router",
+  "version": "1.4.9-0.0.1",
   "description": "> 一个更为简洁的[Vue-router](https://router.vuejs.org/zh/)，专为 [uni-app](https://uniapp.dcloud.io/) 量身打造",
   "main": "index.js",
   "directories": {
     "example": "examples"
   },
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +24,7 @@
     "uni-app",
     "uniapp"
   ],
-  "author": "hhyang",
+  "author": "jonny",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SilurianYang/uni-simple-router/issues"

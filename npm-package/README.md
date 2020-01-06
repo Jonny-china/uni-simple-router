@@ -2,9 +2,11 @@
 
 > 一个更为简洁的[Vue-router](https://router.vuejs.org/zh/)，专为 [uni-app](https://uniapp.dcloud.io/) 量身打造
 
+> fork [uni-simple-router](https://github.com/SilurianYang/uni-simple-router)，简单添加ts粗略添加types
+
 ## 介绍
 
-`uni-simple-router` 是专为 [uni-app](https://uniapp.dcloud.io/) 打造的路由器。它与 [uni-app](https://uniapp.dcloud.io/) 核心深度集成，使使用 [uni-app](https://uniapp.dcloud.io/) 轻松构建单页应用程序变得轻而易举。功能包括：
+`uni-simple-router` 是专为 [uni-app](https://uniapp.dcloud.io/) 打造的路由器。它与 [uni-app](https://uniapp.dcloud.io/) 核心深度集成，使用 [uni-app](https://uniapp.dcloud.io/) 轻松构建单页应用程序变得轻而易举。功能包括：
 
 * `H5端` 能完全使用 `vue-router` 进行开发。
 
