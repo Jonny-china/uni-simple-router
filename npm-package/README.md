@@ -2,7 +2,8 @@
 
 > 一个更为简洁的[Vue-router](https://router.vuejs.org/zh/)，专为 [uni-app](https://uniapp.dcloud.io/) 量身打造
 
-> fork [uni-simple-router](https://github.com/SilurianYang/uni-simple-router)，简单添加ts粗略添加types
+
+> fork [uni-simple-router](https://github.com/SilurianYang/uni-simple-router)，为ts粗略添加types
 
 ## 介绍
 
