@@ -41,13 +41,20 @@
 				return this.$Route.query
 			}
 		},
-		created() {},
+		onLoad(){
+			console.log('tabbar ---- onLoad')
+		},
+		onReady(){
+			console.log('tabbar ---- onReady')
+		},
+		onShow(){
+			console.log('tabbar ---- onShow')
+		},
 		methods: {
 			userOut(){
 				this.$Router.replaceAll('/pages/login/login')
 			},
 			gotoPage() {
-				 //this.$Router.push('/router5')
 				
 				// this.$Router.push({
 				// 	path: '/pages/router/router5/router5',
@@ -60,6 +67,10 @@
 				
 				// uni.navigateTo({
 				// 	url:'/router5'
+				// })
+				
+				// this.$Router.pushTab({
+				// 	name:'tabbar-2'
 				// })
 				
 				this.$Router.push({
