@@ -37,8 +37,14 @@ const routesConfig = {
 		},
 		holdTabbarStyle:()=>JSON.parse('{"backgroundColor":"#FF0000","opacity":0.2}')
 	},
-	encodeURI: true,
+	encodeURI: false,
 	debugger: true,
+	routerBeforeEach:()=>{
+		console.log('routerBeforeEach')
+	},
+	routerAfterEach:()=>{
+		console.log('routerAfterEach')
+	},
 	routes: [{
 			aliasPath: '/router5',
 			path: '/pages/router/router5/router5',
@@ -48,6 +54,10 @@ const routesConfig = {
 				console.log(from.name)
                 next();
             }
+		},
+		{
+			path:'/pages/nvuePages/nvue1/nvue1',
+			name:'nvue1'
 		},
 		{
 			path: '/pages/login/login',
@@ -158,18 +168,7 @@ router.beforeEach((to, from, next) => {
 	// 		}
 	// 	});
 	// }else{
-	// 	if(to.name=='tabbar-1'){
-	// 		next({
-	// 			name:'router5',
-	// 			NAVTYPE:'push',
-	// 			animation:{
-	// 				animationType:'slide-in-top',
-	// 				animationDuration:1000
-	// 			}
-	// 		});
-	// 	}else{
-	// 		next();
-	// 	}
+	// 	next();
 	// }
 })
 router.afterEach((to, from) => {
